@@ -1,0 +1,6 @@
+Universidade Federal do Piauí – UFPI
+Curso de Sistemas de Informação
+Disciplina: Algoritmos II
+Professor: José Dennis
+Discentes: Lyan Fernando Pereira De Sousa e Micheli Borges De Carvalho
+tipo de linguagem : C
