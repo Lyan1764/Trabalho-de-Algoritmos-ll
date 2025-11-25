@@ -19,9 +19,7 @@ float meuabs(float A){
 int devetrocar(float distA, float distB, int valA, int valB){
     if(distA > distB){
         return 1;
-    } 
-    
-    else if (distA == distB && valA > valB) {
+    }else if (distA == distB && valA > valB) {
         return 1;
     }
     
