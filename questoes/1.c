@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 float calcularmedia(int n, int *p){
     int i,soma=0;
     for(i=0;i<n;i++){
@@ -30,10 +31,13 @@ void pegardistancia(int *vet,int n,float media){
     int i,j,temp;
     for(i=0;i<n;i++){
         for(j=0; j<n-i-1;j++){
+
             float diferencaA = media - *(vet+j); 
             float diferencaB = media - *(vet+j+1);
+            //garantindo que continue positivo os numeros
             diferencaA = meuabs(diferencaA);
             diferencaB = meuabs(diferencaB);
+            //a troca
             if(devetrocar(diferencaA,diferencaB,*(vet+j),*(vet+j+1))){
                 temp = *(vet+j);
                 *(vet+j)= *(vet+j+1);

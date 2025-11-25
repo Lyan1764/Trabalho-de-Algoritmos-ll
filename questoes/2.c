@@ -61,9 +61,7 @@ float jaccard(char (*palavras1)[200], char (*palavras2)[200],char (*rpt)[200]){
 int main (){
     //incializando com 0 para remover o lixo de memoria e saber o fim do vetor;
     char palavras1[10][200]={0},palavras2[10][200]={0};
-
     char repetidas[10][200]={0},f1[200],f2[200];
-
     char (*rpt)[200] = repetidas;
 
     printf("digite a primeira frase \n");
@@ -76,13 +74,15 @@ int main (){
     separar(palavras2,f2);
 
     float indice = jaccard(palavras1,palavras2,repetidas);
+    printf("a intersecao:");
 
-    printf("o indice do jaccard e de : : %.2f\n",indice);
-    printf("a intersecao: ");
+    //acontece ate não encontrar palavras dentro do vetor
     while(**rpt != '\0'){
         printf(" %s ,",*rpt);
         rpt++;
     }
+    printf("\n"); 
+    printf("o indice do jaccard e de : : %.2f\n",indice);  
     
     return 0;
 }
