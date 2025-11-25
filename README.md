@@ -1,21 +1,28 @@
-# Trabalho-de-Algoritmos-ll
-solução de 6 questões utilizando a linguagem C 
+# 📚 Trabalho Final - Algoritmos e Programação II
 
-# requisitos:
-o Enviar via sigaa
-o Arquivos de código fonte “.c”
-o Arquivo txt com o nome dos integrantes do grupo
-o Apenas uma pessoa da dupla deve enviar
-o O código deve estar preparado para ser executado na máquina do
-professor. Sistema operacional: Ubuntu 24.04.2 LTS
-o Implementação:
-▪ Execução correta
-▪ Cumprimento dos Requisitos Solicitados
-▪ Organização, Clareza e Legibilidade
-▪ Aplicação correta dos conceitos (por exemplo: ponteiro, ponteiro
-para ponteiro, vetor, matriz, arquivo)
-o Entrevista:
-▪ Domínio sobre a lógica do código implementado
-▪ Clareza, segurança e comunicação durante a explicação
-▪ Capacidade de raciocínio e resolução de problemas
-▪ Organização e estrutura do código
+![Language](https://img.shields.io/badge/Language-C-blue)
+![OS](https://img.shields.io/badge/OS-Ubuntu_24.04.2_LTS-orange)
+![Status](https://img.shields.io/badge/Status-Concluído-green)
+
+Este repositório contém a solução de **6 questões práticas** desenvolvidas para a 4ª Avaliação da disciplina de Algoritmos e Programação II.
+
+---
+
+## 🎯 Objetivos e Conceitos Aplicados
+
+O foco principal deste trabalho é demonstrar domínio sobre alocação e manipulação de memória em C. Os principais conceitos abordados foram:
+
+* ✅ **Ponteiros** (Aritmética e manipulação)
+* ✅ **Ponteiros para Ponteiros** (`char **`, `int **`)
+* ✅ **Vetores e Matrizes** (Manipulação via ponteiros)
+* ✅ **Structs** (Registros)
+* ✅ **Manipulação de Arquivos**
+
+---
+
+## ⚙️ Ambiente de Execução
+
+O código foi desenvolvido e testado para ser executado estritamente no seguinte ambiente, conforme solicitado:
+
+* **Sistema Operacional:** Ubuntu 24.04.2 LTS
+thanks!!
